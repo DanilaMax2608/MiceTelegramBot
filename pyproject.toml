@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "MiceTelegramBot"
+version = "0.1.0"
+description = "Telegram bot for launching the game"
+readme = "README.md"
+packages = [{include = "Telegram-Bot"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.12.5"
+python-telegram-bot = "^20.0"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
