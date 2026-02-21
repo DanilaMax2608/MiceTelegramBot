@@ -3,7 +3,7 @@ name = "MiceTelegramBot"
 version = "0.1.0"
 description = "Telegram bot for launching the game"
 readme = "README.md"
-packages = [{include = "Telegram-Bot"}]
+packages = [{include = "micetelegrambot"}]
 
 
 [tool.poetry.dependencies]
